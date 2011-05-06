@@ -3,7 +3,7 @@ require 'hobo_support'
 ActiveSupport::Dependencies.autoload_paths |= [ File.dirname(__FILE__) ]
 
 module Hobo
-  # Empty class to represent the boolean type.
+  # Empty class to represent the boolean type
   class Boolean; end
 end
 
